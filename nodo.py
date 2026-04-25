@@ -7,7 +7,7 @@ class Nodo:
         self.y=y
         self.id=id
         self.radio=config.RADIO_NODO
-        self.color=config.COLORES["VERDE"]
+        self.color=config.COLORES["AZUL"]
         self.seleccionado=False
         
     def dibujar(self, pantalla):
